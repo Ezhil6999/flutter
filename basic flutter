@@ -8,3 +8,15 @@ void main() {
   bool t = true;
   print(t);
 }
+
+
+ int a = (9.9).toInt();
+  //int c = 9.9 as int;// error occurdouble is not a subtype of int
+  //double d = 9 as double;// error double is not a subtype of int
+  double d = 9.toDouble();
+  print(d);
+  print(a);
+  double b = 9.9;
+  print(b);
+   double a = double.parse("8.8");
+  print(a);
