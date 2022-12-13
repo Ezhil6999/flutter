@@ -1,0 +1,10 @@
+void main() {
+  int a = 9;
+  print(a);
+  double b = 9.9;
+  print(b);
+  String c = "Ezhil";
+  print(c);
+  bool t = true;
+  print(t);
+}
