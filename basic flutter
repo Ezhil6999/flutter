@@ -60,3 +60,40 @@ void main() {
 
 
 }
+
+Day 8
+
+  // String Interpolation
+  String a = "Ezhil";
+  print("my name is $a");
+  
+  //Constant vs Final
+  const dynamic i = 4; // we can use any data type except var
+  print(i);
+  
+  //Constant                     vs     Final
+//>must initilaize and declare  | >must declare may or may not declare
+  const dynamic i = 4; // we can use any data type except var
+  i = 5; // show error
+  final int j;
+  j = 6;
+  print(i);
+  
+  import 'dart:io';
+void main() {
+  stdout.write("What is your name : ");
+  var s = stdin.readLineSync();
+  print(s.runtimeType);
+}
+
+ stdout.write("What is your name : ");
+  //! --->used for finding end of the line Like commanding line <-- --!>
+  int s = int.parse(stdin.readLineSync()!);
+  print(s.runtimeType);
+  
+   //operatorn --->+,-,*,/,>>,<<,!=,&&,&,||,|,a>b?true:false
+
+  
+  
+  
+  
