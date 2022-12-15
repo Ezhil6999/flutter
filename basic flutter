@@ -20,3 +20,43 @@ void main() {
   print(b);
    double a = double.parse("8.8");
   print(a);
+
+// day 2--6
+
+void main() {
+  //in dart everything(datatype) (like string in java) is object
+  int a = 7;
+  print(a);
+  //if int a; or int a=null; it show error to avoid crash
+  //to avoid this error we use null-safty operator--?
+ 
+   int? a;// no error shown it assign null
+  print(a);
+  
+   int? a=20;
+  print(a);// output: 20
+  bool? t;
+  print(t);//output : null because it is a object all datatype is object
+  
+   dynamic g = "Ezhil"; //dynamic is like a super class
+  g = 299; // no error show
+  dynamic g1 = 29; //can change the variable to any geniric data type
+  dynamic g2 = 2.9;
+  dynamic g3 = true;
+
+  var v = "Ezhilraj"; //
+  v = "rajesh"; //no error shown
+  var v1 = 290;
+  //v1="raj"; show error
+  //can not cnage the datatype once assigned
+  var v2 = 20.9;
+  var v3 = false;
+  
+  String a = 'mango\'s is yellow';//---->not work in raw string
+  print(a);
+  
+ String a = "mango\n's is yellow";// get in to new line
+  String a = r"mango\n's is yellow";// print all include \n  --raw string
+
+
+}
