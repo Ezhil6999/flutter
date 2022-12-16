@@ -93,7 +93,9 @@ void main() {
   
    //operatorn --->+,-,*,/,>>,<<,!=,&&,&,||,|,a>b?true:false
 
-  
+  int a=3;
+int b=a>>1; // right shift-->0011--?0001
+print(b);//1
   
   
   
