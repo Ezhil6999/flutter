@@ -98,4 +98,39 @@ int b=a>>1; // right shift-->0011--?0001
 print(b);//1
   
   
-  
+  import 'dart:io';
+class fun{
+int? a;
+String? e;
+}
+void main() {
+var s=fun();
+int? a1;
+String? e1;
+if(s!=null){
+a1=s.a ?? 10;
+e1=s.e ?? "Ezhil";
+}
+print('$a1 and $e1');
+}
+// class Amount {
+//   String? msg;
+//   int? n;
+// }
+
+// main() {
+//   //null-aware operator ---> .? , ?? , ??=
+//   var a;
+//   int? n1;
+//   String? message;
+//   if (a != null) {
+//     n1 = a.n ??= 0;
+//     message = a.msg ?? "wait";
+//   }
+//   print('$message and $n1');
+// }
+
+
+
+
+
