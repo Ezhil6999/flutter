@@ -131,6 +131,26 @@ print('$a1 and $e1');
 // }
 
 
+day 4
 
+import 'dart:io';
+void main() {
+// in dart there is no concept of array
+var list=[1,9,3,4,5,6];
+for(int i=0;i<list.length;i++){
+    print(i);
+}
+for (int n in list){
+    print(n);
+}
+for (dynamic n in list){
+    print(n);
+}
+list.forEach((l)=>print(l));
+ list.forEach((e) {
+    //anonyms class
+    print(e);
+  });
+}
 
 
