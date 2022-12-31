@@ -210,3 +210,93 @@ void main() {
 
 
 
+day 12
+======================================================================
+import 'dart:io';
+void main() {
+//abstract-----interface------static
+//collection-----list,set,map,queue,hashmap,hashset,linkedhashmap,linkedhashset,callable class
+
+//abstract class--->we cant able to create object
+//var a=ezhil();--->error
+}
+abstract class ezhil{
+
+}
+=====================================================================
+import 'dart:io';
+void main() {
+var n=news();                                                        
+------------------------------------------------------------------------------------------------------------------------------------
+n.demo1();   //ans : ez                
+}
+abstract class ezhil{
+      void demo(); //--->abstract method                    //while using extends we must override abstact method
+      void demo1(){
+        print("ez");
+      }
+}
+
+
+                                                   or
+--------------------------------------------------------------------------------------------------------------------------------
+n.demo();             //output: ezhil
+}
+//need to over ride 
+abstract class ezhil{
+      void demo(); //--->abstract method                    //while using extends we must override abstact method
+      void demo1(){
+        print("ez");
+      }
+}
+class news extends ezhil{            //extends---->only single class
+    @override 
+    demo(){//abstract method override
+        print("ezhil");
+    }
+}
+===============================================================================================
+
+import 'dart:io';
+void main() {
+var n=news();
+n.demo();
+}
+//need to over ride 
+abstract class ezhil{
+      void demo(); //--->abstract method                    //while using implements we must override all the method in parent class
+      void demo1(){//--->it must also over ride
+        print("ez");
+      }
+}
+abstract class raj{
+    void demo3();                                              //while using extends we must override abstact method
+      void demo4(){
+        print("ez");
+      }
+}
+class news implements ezhil,raj{            //implemets----->multiclass can use
+                                                                    ////interface no super key word 
+    @override
+    demo(){//abstract method override
+        print("ezhil");
+    }demo1(){
+    }demo3(){
+    }demo4(){
+    }
+}
+===========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
