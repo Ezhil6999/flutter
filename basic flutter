@@ -172,3 +172,41 @@ for(int i=0;i<5;i++){
   
 }
 }
+
+
+day 6:
+
+//required parameter
+import 'dart:io';
+void main() {
+    //in dart return type is optional
+    int c=fun(3,4);
+    print(c);
+
+}
+fun(int a,int b){return a+b;}
+
+
+import 'dart:io';
+void main() {
+   //functions..4 types
+  //1.required parameters
+  
+  //2.optional parameters
+  //2.1=>positional optional parameter=[]
+              //usernmae("hi");
+              //username(String s,[String? ss]);
+  //2.2=>named optional parameter={}
+              //userName(lastName: "hi", firstName: "bye");
+  //2.3=>default optional parameter={}
+                  // userName(lastName: "bye");
+                  //userName(
+                  //     {String? firstName = "please enter your firstname",
+                   //     String? lastName = "please enter your lastname"})
+
+}
+/lamda function or anonyms func..=>short hand notation or fat-arrow
+
+
+
+
