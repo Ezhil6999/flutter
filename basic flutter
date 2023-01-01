@@ -240,6 +240,93 @@ void main(){
 closure -->within a closure we can modify the values of variables present in the parent scope like global and local variables
 
 
+
+day 8
+
+
+import 'dart:io';
+// import 'Exception.dart';
+//Exception--->intruption showed in the normal flow of application
+
+void main(){
+    try {
+    int j = 10 ~/ 0; //infinity
+    print(j);
+  }
+//IntegerDivisionByZeroException
+  on UnsupportedError {
+    print("pls dont divide by zero");
+  } catch (e) {
+    print(e.toString());
+  } finally {
+    print("always run");
+  }
+}
+=========================================================================
+import 'dart:io';
+//import 'Exception.dart';
+
+void main(){
+  int k=88;
+test(k);
+}
+ test(int i){
+if(i>=0 && i<=9){
+    print("single");
+}else {
+    throw new ez().erro();
+}
+}
+class ez implements Exception{
+    erro(){
+        return "error--not a single digit";
+    }
+}
+==================================================================================
+
+
+day 9
+// there is one rule ..its shuld be either def or para cons only can exist at one time not both
+class Student {
+   int? student_Id; //instance_variable  ..declared outside method and with in the class
+  }
+ 
+ 
+ 
+ day 10
+ //private --- putting underscore infrontof
+ 
+ day 11
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+class Ezhil {
+  //polymorphism -- two types-->function overloading and overriding
+  //but in dart there is no concept of function overloading only func overriding is exist
+
+
+  Ezhil(String name1, String name2) {
+    print("$name1");
+    print("$name2");
+  }
+}
+
+class Raje extends Ezhil {
+
+  Raje(String name, String name1, String name2) : super(name1, name2) {
+    print("S.$name");
+  }
+  Raje.myNameConstructor(String n, String n1) : super(n, n1) {
+    print("my life my rule");
+  }
+
+}
+
+void main(){
+    var g=Raje("ezhil","kj","jn");
+    
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 day 12
 
 
