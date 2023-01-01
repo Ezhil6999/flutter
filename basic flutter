@@ -205,12 +205,44 @@ void main() {
                    //     String? lastName = "please enter your lastname"})
 
 }
+
+
+
+
+DAY 7
+
+
 /lamda function or anonyms func..=>short hand notation or fat-arrow
+import 'dart:io';
+//higher order function
+//   1.Passing 
+//===================================================
+void main() {
+Function c=(a,b)=>print(a+b);
+newfun(c);
+}
+newfun(Function ct){
+ ct(3,5);
+}
+//==================================================
 
+//   2.receiving
+void main(){
+    Function h=fun();
+    h(10,5);
+ }
+    fun(){
+        Function h=(a,b)=>print(a+b);
+        return h;
+    }\
+===========================================================================
 
+closure -->within a closure we can modify the values of variables present in the parent scope like global and local variables
 
 
 day 12
+
+
 ======================================================================
 import 'dart:io';
 void main() {
