@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "641912486272",
+    "project_id": "ezhil-app-b32fe",
+    "storage_bucket": "ezhil-app-b32fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641912486272:android:28db49916dfbfd0ab8e965",
+        "android_client_info": {
+          "package_name": "com.example.amazon_clone_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641912486272-2sm7r4u7s03cjef0a4l2etjid8310fve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ81Y0woyB0gBP2TIU98euLg2HVyX5eV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641912486272-2sm7r4u7s03cjef0a4l2etjid8310fve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
